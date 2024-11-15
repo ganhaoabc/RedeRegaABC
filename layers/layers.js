@@ -1,5 +1,5 @@
 ol.proj.proj4.register(proj4);
-//ol.proj.get("EPSG:3763").setExtent([94147.420832, -77678.426140, 94478.814643, -77499.604727]);
+//ol.proj.get("EPSG:3763").setExtent([92068.826976, -81181.497779, 97371.127957, -78320.355170]);
 var wms_layers = [];
 
 
@@ -97,8 +97,18 @@ var lyr_Bocas_Rega_24_4 = new ol.layer.Vector({
                 style: style_Bocas_Rega_24_4,
                 popuplayertitle: "Bocas_Rega_24",
                 interactive: true,
-                title: '<img src="styles/legend/Bocas_Rega_24_4.png" /> Bocas_Rega_24'
-            });
+    title: 'Bocas_Rega_24<br />\
+    <img src="styles/legend/Bocas_Rega_24_4_0.png" /> Bruno Cardoso<br />\
+    <img src="styles/legend/Bocas_Rega_24_4_1.png" /> Bruno Carvalho<br />\
+    <img src="styles/legend/Bocas_Rega_24_4_2.png" /> Carlos Pires<br />\
+    <img src="styles/legend/Bocas_Rega_24_4_3.png" /> João Paulo Pires<br />\
+    <img src="styles/legend/Bocas_Rega_24_4_4.png" /> Manuel do Bico<br />\
+    <img src="styles/legend/Bocas_Rega_24_4_5.png" /> Nuno Conceicao<br />\
+    <img src="styles/legend/Bocas_Rega_24_4_6.png" /> Nuno Espada<br />\
+    <img src="styles/legend/Bocas_Rega_24_4_7.png" /> Paulo Panacas<br />\
+    <img src="styles/legend/Bocas_Rega_24_4_8.png" /> Pedro Carvalho<br />\
+    <img src="styles/legend/Bocas_Rega_24_4_9.png" /> <br />'
+        });
 
 lyr_ESRISatellite_0.setVisible(true);lyr_Condutas2024ETRS89_1.setVisible(true);lyr_CaixasPresso2023ETRS89_2.setVisible(true);lyr_CaixasAuxiliares2023ETRS89_3.setVisible(true);lyr_Bocas_Rega_24_4.setVisible(true);
 var layersList = [lyr_ESRISatellite_0,lyr_Condutas2024ETRS89_1,lyr_CaixasPresso2023ETRS89_2,lyr_CaixasAuxiliares2023ETRS89_3,lyr_Bocas_Rega_24_4];
